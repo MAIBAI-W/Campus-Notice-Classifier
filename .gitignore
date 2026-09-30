@@ -1,0 +1,12 @@
+# 运行产物与本地数据，永不入库
+data/
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+config.local.json
+*.log
+
+# 二进制发布物走 GitHub Releases，不进 git 历史
+release/
